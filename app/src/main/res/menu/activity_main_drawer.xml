@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_profile"
+            android:icon="@drawable/human"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/rotationlock"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_view_package"
+            android:icon="@drawable/products"
+            android:title="Package" />
+
+        <item
+            android:id="@+id/nav_view_history"
+            android:icon="@drawable/timemanagement"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/specialoffer"
+            android:title="Offers" />
+<!--        <item-->
+<!--            android:id="@+id/nav_report"-->
+<!--            android:icon="@drawable/report"-->
+<!--            android:title="Report" />-->
+        <item
+            android:id="@+id/nav_view_reply"
+            android:icon="@drawable/complain"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/power"
+            android:title="Logout" />
+    </group>
+</menu>
